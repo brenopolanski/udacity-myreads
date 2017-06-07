@@ -94,6 +94,9 @@ public class MainActivity extends ActionBarActivity {
             ListView listView = (ListView) rootView.findViewById(R.id.listview_forecast);
             listView.setAdapter(mForecastAdapter);
 
+            // These two need to be declared outside the try/catch
+            // so that they can be closed in the finally block.
+
             return rootView;
         }
     }
