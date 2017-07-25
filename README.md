@@ -1,1 +1,3 @@
-# udacity-nanodegree-android-developer
+# Udacity MyReads
+
+React Developer Reviewer Training.
